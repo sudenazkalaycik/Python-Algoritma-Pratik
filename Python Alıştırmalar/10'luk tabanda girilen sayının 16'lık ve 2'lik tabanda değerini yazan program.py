@@ -18,6 +18,7 @@ def ikilik_tabana_cevirme(x):
 # 2 likteki algoritmanın aynısı sadece harfler işin içine girince 10 dan 15 e kadar olan değerleri harfe eşitlediğimizden tekrar str çevirimi yapmadık
 def onaltilik_tabana_cevirme(x):
     onaltilik=""
+    while x>=1:
         kalan=x%16
         x=x//16
         if kalan>9:
